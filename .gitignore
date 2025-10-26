@@ -15,10 +15,12 @@ build/
 
 # Data files (if they are large)
 *.csv
-
+.gitignore
 # macOS
 .DS_Store
-.gitignore
 
-ReadMe.md
+churn-frontend/client/.gitignore
+churn-frontend/client/node_modules
+
+churn-frontend/node_modules
 churn-frontend/node_modules
