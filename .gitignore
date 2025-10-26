@@ -21,3 +21,4 @@ build/
 .gitignore
 
 ReadMe.md
+churn-frontend/node_modules
