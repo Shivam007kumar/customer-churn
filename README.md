@@ -9,9 +9,8 @@ This repository contains a production-grade, end-to-end solution for predicting 
 ### **[🚀 Live Application Demo 🚀](https://main.d8tihjwkkmisl.amplifyapp.com)**
 
 ---
-
 <p align="center">
-  <em>(Please add a screenshot of your live application here. It's the best way to showcase your work!)</em>
+  <img src="sample/Screenshot 2025-10-26 at 10.07.16 AM.png" alt="Live Application Screenshot" width="800"/>
 </p>
 
 ---
