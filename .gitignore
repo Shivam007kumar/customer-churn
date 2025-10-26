@@ -19,5 +19,5 @@ build/
 # macOS
 .DS_Store
 .gitignore
-churn-frontend
+
 ReadMe.md
