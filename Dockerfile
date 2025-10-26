@@ -35,4 +35,4 @@ EXPOSE 8000
 
 # Define the command to run the application using uvicorn
 # The host 0.0.0.0 makes the application accessible from outside the container
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["python", "api.py"]

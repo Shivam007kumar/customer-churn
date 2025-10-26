@@ -102,3 +102,12 @@ def predict_churn(customer_features: CustomerFeatures):
     probability = float(prediction_proba[1])
 
     return {"prediction": prediction, "probability": probability}
+
+# --- ADD THIS BLOCK TO THE VERY END OF api.py ---
+
+# This block allows running the server directly with `python api.py`
+# It's also a great way to add a final log message before the server starts.
+if __name__ == "__main__":
+    import uvicorn
+    print("--- Script fully loaded. Attempting to start Uvicorn server now. ---")
+    uvicorn.run(app, host="0.0.0.0", port=8000)
